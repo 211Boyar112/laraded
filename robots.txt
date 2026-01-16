@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://larabet-casino.de/sitemap.xml

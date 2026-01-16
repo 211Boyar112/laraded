@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seite nicht gefunden - 404</title>
+    <meta name="description" content="Die angeforderte Seite konnte nicht gefunden werden. Bitte überprüfen Sie die URL oder kehren Sie zur Startseite von Larabet Casino zurück.">
+    <meta name="robots" content="noindex, follow">
+    <!-- Favicon -->
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+ 
+    <!-- Open Graph / Twitter -->
+    <meta property="og:title" content="Seite nicht gefunden - 404">
+    <meta property="og:description" content="Die angeforderte Seite existiert nicht. Zurück zur Startseite von Larabet Casino.">
+    <meta property="og:image" content="https://larabet-casino.de/images/404-error-og.jpg" alt="404 Fehler - Seite nicht gefunden">
+    <meta property="og:url" content="https://larabet-casino.de/404">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Seite nicht gefunden - 404">
+    <meta name="twitter:description" content="404 Fehler - Seite nicht gefunden. Kehren Sie zu Larabet Casino zurück.">
+    <meta name="twitter:image" content="https://larabet-casino.de/images/404-twitter.jpg" alt="Larabet Casino 404 Fehlerseite">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://larabet-casino.de/404/#webpage",
+        "url": "https://larabet-casino.de/404",
+        "name": "Seite nicht gefunden (404) | Larabet Casino",
+        "description": "404 Fehlerseite - Die angeforderte Seite konnte nicht gefunden werden",
+        "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://larabet-casino.de/#website",
+            "url": "https://larabet-casino.de/",
+            "name": "Larabet Casino",
+            "description": "Larabet Casino Testbericht und Erfahrungen 2026"
+        },
+        "datePublished": "2026-01-15T10:00:00+01:00",
+        "dateModified": "2026-01-15T10:00:00+01:00",
+        "inLanguage": "de-DE"
+    }
+    </script>
+
+    <style>
+        /* CSS Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Main Content */
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 0;
+        }
+
+        .error-content {
+            text-align: center;
+            color: white;
+            max-width: 800px;
+            padding: 3rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .error-code {
+            font-size: clamp(6rem, 15vw, 12rem);
+            font-weight: 900;
+            line-height: 1;
+            margin-bottom: 1rem;
+            
+            /* Кросс-браузерный градиент */
+            background: linear-gradient(
+                45deg,
+                #FF9800 0%,
+                #FFC107 50%,
+                #FF9800 100%
+            );
+            background-size: 200% auto;
+            
+            /* Современные стандарты */
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+            /* Тень для лучшей читаемости */
+            text-shadow: 
+                0 2px 10px rgba(0, 0, 0, 0.2),
+                0 4px 20px rgba(0, 0, 0, 0.15),
+                0 0 0 1px rgba(255, 152, 0, 0.1);
+            
+            /* Анимации */
+            animation: 
+                pulse 2s ease-in-out infinite,
+                gradientFlow 3s ease-in-out infinite;
+            
+            /* Оптимизация анимации */
+            will-change: transform, background-position;
+        }
+
+        /* Fallback для браузеров, не поддерживающих background-clip: text */
+        @supports not (background-clip: text) {
+            .error-code {
+                color: #FF9800;
+                background: none;
+                -webkit-text-fill-color: #FF9800;
+                text-shadow: 
+                    0 2px 10px rgba(0, 0, 0, 0.2),
+                    0 4px 20px rgba(0, 0, 0, 0.15),
+                    0 0 30px rgba(255, 152, 0, 0.5);
+            }
+        }
+
+        /* Плавная анимация градиента */
+        @keyframes gradientFlow {
+            0%, 100% {
+                background-position: 0% 50%;
+                filter: hue-rotate(0deg);
+            }
+            50% {
+                background-position: 100% 50%;
+                filter: hue-rotate(10deg);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.03);
+                opacity: 0.95;
+            }
+        }
+
+        /* Для пользователей, предпочитающих уменьшенное движение */
+        @media (prefers-reduced-motion: reduce) {
+            .error-code {
+                animation: none;
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Темная тема поддержка */
+        @media (prefers-color-scheme: dark) {
+            .error-code {
+                text-shadow: 
+                    0 2px 15px rgba(0, 0, 0, 0.4),
+                    0 4px 25px rgba(0, 0, 0, 0.3),
+                    0 0 0 1px rgba(255, 152, 0, 0.2);
+            }
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: white;
+        }
+
+        .error-message {
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Error Details */
+        .error-details {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            text-align: left;
+        }
+
+        .error-details h3 {
+            color: #FF9800;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .error-details ul {
+            list-style: none;
+            margin: 0;
+        }
+
+        .error-details li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .error-details li:before {
+            content: "•";
+            color: #4CAF50;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Action Buttons */
+        .action-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            min-width: 200px;
+            justify-content: center;
+        }
+
+        .btn-primary {
+            background: #4CAF50;
+            color: white;
+            border: 2px solid #4CAF50;
+        }
+
+        .btn-primary:hover {
+            background: #388E3C;
+            border-color: #388E3C;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Search Box */
+        .search-box {
+            margin: 2rem 0;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .search-form {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 1rem 1.5rem;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 1rem;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .search-input::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #4CAF50;
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .search-btn {
+            padding: 1rem 1.5rem;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .search-btn:hover {
+            background: #388E3C;
+            transform: scale(1.05);
+        }
+
+        /* Popular Links */
+        .popular-links {
+            margin: 2rem 0;
+        }
+
+        .popular-links h3 {
+            color: white;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .link-card {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        .link-card:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .link-card a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
+        }
+
+        .link-card p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Technical Info (Hidden by default) */
+        .technical-info {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .technical-toggle {
+            background: none;
+            border: none;
+            color: rgba(255, 255, 255, 0.7);
+            cursor: pointer;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 0 auto;
+            padding: 0.5rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .technical-toggle:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .technical-details {
+            display: none;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-top: 1rem;
+            text-align: left;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        .technical-details.active {
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(0, 0, 0, 0.3);
+            color: white;
+            padding: 2rem 0 1rem;
+            margin-top: auto;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        .footer-content {
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        .footer-links a:hover {
+            color: #FF9800;
+            text-decoration: underline;
+        }
+
+        .copyright {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            line-height: 1.5;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+
+            .error-content {
+                padding: 2rem;
+                margin: 1rem;
+            }
+
+            .error-code {
+                font-size: clamp(4rem, 12vw, 8rem);
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .error-message {
+                font-size: 1.1rem;
+            }
+
+            .action-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .btn {
+                width: 100%;
+                max-width: 300px;
+            }
+
+            .search-form {
+                flex-direction: column;
+            }
+
+            .search-btn {
+                width: 100%;
+            }
+
+            .links-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .error-content {
+                padding: 1.5rem;
+            }
+
+            .error-code {
+                font-size: clamp(3rem, 10vw, 6rem);
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .btn {
+                padding: 0.8rem 1.5rem;
+                min-width: auto;
+            }
+        }
+
+        /* Accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            .error-code,
+            .btn:hover,
+            .link-card:hover,
+            .search-btn:hover {
+                animation: none;
+                transform: none;
+                transition: none;
+            }
+            
+            .btn:hover,
+            .link-card:hover {
+                opacity: 0.9;
+            }
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* Focus styles for accessibility */
+        .btn:focus,
+        .search-input:focus,
+        .search-btn:focus,
+        .technical-toggle:focus {
+            outline: 2px solid #FF9800;
+            outline-offset: 2px;
+        }
+
+        a:focus {
+            outline: 2px solid #4CAF50;
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="/" class="logo">Larabet</a>
+                <nav aria-label="Hauptnavigation">
+                    <ul style="display: flex; gap: 2rem; list-style: none;">
+                        <li><a href="/" style="color: white; text-decoration: none;">Startseite</a></li>
+                        <li><a href="/#bonus" style="color: white; text-decoration: none;">Bonus</a></li>
+                        <li><a href="/#faq" style="color: white; text-decoration: none;">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div class="error-content">
+                <div class="error-code" aria-hidden="true">404</div>
+                
+                <h1>Seite nicht gefunden</h1>
+                
+                <p class="error-message">
+                    Entschuldigung! Die von Ihnen gesuchte Seite existiert nicht oder wurde verschoben.
+                </p>
+
+                <div class="error-details">
+                    <h3>Mögliche Ursachen:</h3>
+                    <ul>
+                        <li>Die URL wurde falsch eingegeben</li>
+                        <li>Die Seite wurde umbenannt oder verschoben</li>
+                        <li>Die Seite existiert nicht mehr</li>
+                        <li>Ein temporäres technisches Problem liegt vor</li>
+                    </ul>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="action-buttons">
+                    <a href="/" class="btn btn-primary">
+                        <span aria-hidden="true">🏠</span> Zur Startseite
+                    </a>
+                    <a href="/#bonus" class="btn btn-secondary">
+                        <span aria-hidden="true">🎁</span> Aktuellen Bonus ansehen
+                    </a>
+                </div>
+
+                <!-- Search Box -->
+                <div class="search-box">
+                    <form class="search-form" action="/search" method="GET" role="search">
+                        <label for="site-search" class="sr-only">Website durchsuchen</label>
+                        <input type="search" 
+                               id="site-search"
+                               class="search-input" 
+                               name="q" 
+                               placeholder="Was suchen Sie?"
+                               aria-label="Website durchsuchen">
+                        <button type="submit" class="search-btn">Suchen</button>
+                    </form>
+                </div>
+
+                <!-- Popular Links -->
+                <div class="popular-links">
+                    <h3>Beliebte Seiten auf Larabet Casino:</h3>
+                    <div class="links-grid">
+                        <div class="link-card">
+                            <a href="/#bonus">Willkommensbonus</a>
+                            <p>Bis zu 500€ + 100 Freispiele</p>
+                        </div>
+                        <div class="link-card">
+                            <a href="/#spiele">Spieleauswahl</a>
+                            <p>Über 2000 Casino-Spiele</p>
+                        </div>
+                        <div class="link-card">
+                            <a href="/#app">Mobile App</a>
+                            <p>Spielen Sie unterwegs</p>
+                        </div>
+                        <div class="link-card">
+                            <a href="/#faq">Häufige Fragen</a>
+                            <p>Antworten zu Larabet</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Info -->
+                <div class="technical-info">
+                    <button class="technical-toggle" id="tech-toggle" aria-expanded="false" aria-controls="tech-details">
+                        <span aria-hidden="true">🔧</span> <span class="toggle-text">Technische Details anzeigen</span>
+                    </button>
+                    <div id="tech-details" class="technical-details" role="region" aria-labelledby="tech-toggle">
+                        <p><strong>Fehlercode:</strong> 404 Not Found</p>
+                        <p><strong>URL:</strong> <span id="current-url"></span></p>
+                        <p><strong>Zeitstempel:</strong> <span id="timestamp"></span></p>
+                        <p><strong>Browser:</strong> <span id="user-agent"></span></p>
+                        <p><strong>Referrer:</strong> <span id="referrer"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <nav class="footer-links" aria-label="Rechtliche Links">
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/terms">Terms & Conditions</a>
+                    <a href="/responsible">Responsible Gaming</a>
+                    <a href="/disclaimer">Disclaimer</a>
+                </nav>
+                
+                <div class="copyright">
+                    <p>&copy; 2026 Larabet Casino. Alle Rechte vorbehalten.</p>
+                    <p>Glücksspiel kann süchtig machen. Hilfe unter: <a href="https://www.bzga.de" style="color: #FF9800;">BZgA</a> | 0800 1372700</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Interactive Features -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Technical Details Toggle
+            const techToggle = document.querySelector('.technical-toggle');
+            const techDetails = document.getElementById('tech-details');
+            const toggleText = techToggle.querySelector('.toggle-text');
+            
+            techToggle.addEventListener('click', function() {
+                const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                this.setAttribute('aria-expanded', !isExpanded);
+                techDetails.classList.toggle('active');
+                
+                // Update button text
+                toggleText.textContent = isExpanded 
+                    ? 'Technische Details anzeigen'
+                    : 'Technische Details ausblenden';
+            });
+            
+            // Fill technical details
+            document.getElementById('current-url').textContent = window.location.href;
+            document.getElementById('timestamp').textContent = new Date().toLocaleString('de-DE');
+            document.getElementById('user-agent').textContent = navigator.userAgent;
+            document.getElementById('referrer').textContent = document.referrer || 'Direkter Aufruf';
+            
+            // Form submission handling
+            const searchForm = document.querySelector('.search-form');
+            searchForm.addEventListener('submit', function(e) {
+                const searchInput = this.querySelector('.search-input');
+                if (!searchInput.value.trim()) {
+                    e.preventDefault();
+                    searchInput.focus();
+                    searchInput.setAttribute('placeholder', 'Bitte geben Sie einen Suchbegriff ein...');
+                    searchInput.style.borderColor = '#f44336';
+                    
+                    setTimeout(() => {
+                        searchInput.style.borderColor = '';
+                        searchInput.setAttribute('placeholder', 'Was suchen Sie?');
+                    }, 3000);
+                }
+            });
+            
+            // Auto-focus search input on page load
+            if (window.location.href.includes('?')) {
+                const searchInput = document.querySelector('.search-input');
+                setTimeout(() => {
+                    searchInput.focus();
+                }, 500);
+            }
+            
+            // Log 404 error for analytics
+            if (typeof gtag === 'function') {
+                gtag('event', '404_error', {
+                    'page_path': window.location.pathname,
+                    'page_location': window.location.href,
+                    'page_referrer': document.referrer
+                });
+            }
+            
+            // Add animation to error number only for non-touch devices
+            const errorCode = document.querySelector('.error-code');
+            if (!('ontouchstart' in window) || window.matchMedia('(hover: hover)').matches) {
+                errorCode.addEventListener('mouseenter', function() {
+                    this.style.animation = 'pulse 0.5s infinite, gradientFlow 1.5s ease-in-out infinite';
+                });
+                
+                errorCode.addEventListener('mouseleave', function() {
+                    this.style.animation = 'pulse 2s ease-in-out infinite, gradientFlow 3s ease-in-out infinite';
+                });
+            }
+            
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        e.preventDefault();
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        
+                        // Update URL without page reload
+                        if (history.pushState) {
+                            history.pushState(null, null, targetId);
+                        }
+                    }
+                });
+            });
+            
+            // Handle reduced motion preference
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+            if (prefersReducedMotion.matches) {
+                errorCode.style.animation = 'none';
+            }
+            
+            // Listen for changes in motion preference
+            prefersReducedMotion.addEventListener('change', function(e) {
+                if (e.matches) {
+                    errorCode.style.animation = 'none';
+                } else {
+                    errorCode.style.animation = 'pulse 2s ease-in-out infinite, gradientFlow 3s ease-in-out infinite';
+                }
+            });
+        });
+        
+        // Capture 404 errors for SPA routing
+        window.addEventListener('error', function(e) {
+            if (e.message.includes('404') || e.message.includes('not found')) {
+                if (typeof console !== 'undefined') {
+                    console.error('404 Error captured:', e.message);
+                }
+            }
+        });
+        
+        // Handle browser back/forward navigation for anchor links
+        window.addEventListener('popstate', function() {
+            const hash = window.location.hash;
+            if (hash) {
+                const element = document.querySelector(hash);
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+    </script>
+</body>
+</html>
